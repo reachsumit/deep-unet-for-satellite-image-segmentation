@@ -20,5 +20,8 @@ This is a Keras based implementation of a deep UNet that performs satellite imag
 
 **Note:** Training for this model was done on a Tesla P100-PCIE-16GB GPU.
 
+## Prediction Example
+![prediction example](https://i.imgur.com/CalIxTU.png)
+
 ## Network architecture
 ![Deep Unet Architecture](https://i.imgur.com/zX1r5Rx.png)

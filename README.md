@@ -18,7 +18,7 @@ This is a Keras based implementation of a deep UNet that performs satellite imag
 * Image augmentation is also done while testing, mean results are exported to result.tif image.
 ![examples](https://i.imgur.com/34lq5bD.jpg)
 
-Note: I have also shared trained network weights in this repo. Training was done on a Tesla P100-PCIE-16GB GPU.
+**Note:** Training for this model was done on a Tesla P100-PCIE-16GB GPU.
 
 ## Network architecture
 ![Deep Unet Architecture](https://i.imgur.com/zX1r5Rx.png)

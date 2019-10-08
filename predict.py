@@ -37,7 +37,7 @@ def predict(x, model, patch_sz=160, n_classes=5):
     prediction = np.zeros(shape=(extended_height, extended_width, n_classes), dtype=np.float32)
     for k in range(patches_predict.shape[0]):
         i = k // npatches_horizontal
-        j = k % npatches_vertical
+        j = k % npatches_horizontal
         x0, x1 = i * patch_sz, (i + 1) * patch_sz
         y0, y1 = j * patch_sz, (j + 1) * patch_sz
         prediction[x0:x1, y0:y1, :] = patches_predict[k, :, :, :]
